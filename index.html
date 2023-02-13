@@ -1,0 +1,459 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WOW</title>
+
+
+    <script src="https://kit.fontawesome.com/dd9e2074e9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+
+<!-- STYLE -->
+
+    <style>
+
+
+        *{
+            border: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        header{
+  background-image:
+    linear-gradient(to bottom, rgba(24, 27, 41, 0.52), rgba(4, 2, 4, 0.73)),
+    url('bg.jpg');
+
+  background-repeat: no-repeat;
+    background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+
+  color: white;
+}
+
+        header ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 30px;
+        }
+
+        header ul li{
+            display: inline;
+            margin-right: 50px;
+        }
+
+        header img{
+            margin-right: 70px;
+        }
+
+        .main-container{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            margin: 50px 0;
+            
+        }
+
+
+        .box{
+            display: flex;
+            height: 400px;
+            width: 1000px;
+            margin: 0 16%;
+            /* margin-top: 150px; */
+         
+        }
+
+        .box h1{
+            font-family: 'Abel', sans-serif;
+            font-weight: 900;
+
+                 letter-spacing: 4px;
+            /* word-spacing: 5px; */
+        }
+
+        .box p{
+            font-family: 'Abel', sans-serif;
+            letter-spacing: 2px;
+            word-spacing: 3px;
+            
+        }
+
+        .box img{
+            /* border: 1px solid blue; */
+            width: 40%;
+            background-position: cover;
+            background-repeat: no-repeat;
+        }
+
+        .box div{
+            /* border: 1px solid blue; */
+            width: 60%;
+            padding-left: 40px;
+    
+
+        }
+
+        .box div h1{
+            width: 100%;
+            font-size:xx-large;
+            margin-top: 70px;
+        }
+        
+        .box div p{
+            margin-top: 30px;
+            width: 100%;
+            font-size: 17px;
+            color: #d2cccc;
+       
+        }
+
+        .box button{
+            
+            margin-top: 30px;
+            width: 170px;
+            height: 50px;
+            font-size:larger;
+            background-color: transparent;
+            border: 1px solid black;
+            
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bolder;
+            color: black;
+            transition: 0.3s;
+        }
+
+        .box button:hover{
+            background-color: black;
+            color: white;
+        }
+
+
+
+
+
+
+
+
+        .main-container2{
+            background-color: #f7f6f2;
+            /* border-top: 1px solid black  ; */
+            margin-top: 20px;
+            padding-bottom: 100px;
+            padding-top: 80px ;
+        }
+
+        .as1{
+            text-align: center;
+        }
+
+
+        .s1{
+            
+            margin-top: 30px;
+            width: 240px;
+            height: 50px;
+            font-size:larger;
+            background-color: transparent;
+            border: 1px solid #E4032F;
+            
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bolder;
+            color: #E4032F;
+            border-radius: 6px;
+            letter-spacing: 4px;
+            transition: 0.3s;
+        }
+
+        .s1:hover{
+            background-color: #E4032F;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .as1 h6{
+            font-size: 16px;
+            color: #E4032F;
+            font-family: 'Abel', sans-serif;
+            margin-bottom: 30px;
+            font-weight: bolder;
+            font-style: bold;
+            
+            letter-spacing: 4px;
+        }
+
+
+        .as1 h2{
+            text-align: center;
+            font-size: 64px;
+            font-family: 'Abel', sans-serif;
+            color: #121212;
+            margin-bottom: 20px;
+        }
+
+        .as1 p{
+            font-size: 17px;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #4a4a4a;
+        }
+
+
+
+        
+        .as2{
+            margin: 0 13%;
+            display: flex;
+            gap: 60px;
+        }
+
+        .a2{
+            margin-top: 70px;
+        }
+
+        .as2 h1{
+            text-align: center;
+            color: red;
+            font-style: bold;
+            font-family: 'Abel', sans-serif;
+        }
+
+        .as2 img{
+            height: 323px;
+            width: 336px;
+            margin-top: 10px; 
+        }
+        .as2 img:hover{
+            margin-top: 0;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        /* .box button a{
+            text-decoration: none;
+            
+        } */
+
+
+        .foot{
+            background-color: #232529;
+            color: white;
+            height: 250px;
+            padding-top: 50px;
+            display: flex;
+            
+        }
+        .foot1{
+            width: 50%;
+        }
+
+
+        .foot1 p{
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            margin-left: 60px;
+            
+        }
+
+        .foot1 img{
+            margin-left: 60px;
+            margin-bottom: 30px;
+        }
+
+        .foot2{
+            width: 50%;
+            padding-top: 90px;
+            /* border: 1px solid red; */
+           
+            
+        }
+        .foot2{
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            /* border: 1px solid red; */
+        }
+
+        .icon{
+            font-size: 35px;
+            
+            word-spacing: auto;
+            transition: 0.3s;
+            cursor: pointer;
+            
+        }
+
+        .icon:hover{
+           
+            /* transform: scale(0.5,0.5); */
+            /* margin-bottom: 5px; */
+            word-spacing: auto;
+            background: linear-gradient(to right, #f32170,
+                    #ff6b08, #cf23cf, #eedd44);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip:text;
+           
+
+            
+        }
+
+
+        footer{
+            height: 50px;
+            background-color: #1a1c21;
+            color: white;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+
+
+    </style>
+
+</head>
+
+<!-- BODY -->
+
+<body>
+
+    <header>
+        <ul>
+            <li>HOME</li>
+            <li>PAGES</li>
+            <li>FORTFOLID</li>
+            <!-- <a href="https://www.fontspace.com/category/tattoo"><img src="https://see.fontimg.com/api/renderfont4/OV9ee/eyJyIjoiZnMiLCJoIjo1NCwidyI6MTI1MCwiZnMiOjQzLCJmZ2MiOiIjMTExMTExIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/IEJha2Vy/lucy-said-ok-personal-use-italic.png" alt="Tattoo fonts"></a> -->
+            <a href="index.html"><img src="https://see.fontimg.com/api/renderfont4/OV9ee/eyJyIjoiZnMiLCJoIjo1NCwidyI6MTI1MCwiZnMiOjQzLCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiI0M1NDA0MCIsInQiOjF9/IEJha2Vy/lucy-said-ok-personal-use-italic.png" alt="Tattoo fonts"></a>
+            <li>BLOG</li>
+            <li>SHOP</li>
+            <li>ELEMENTS</li>
+        </ul>
+    </header>
+
+
+<div class="main-container">
+    <div class="box">
+        <img src="donnut.png" alt="image fault">
+        <div>
+            <h1>CINNAMON FOLLS</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+            </p>
+            <button class="s" type="button" >READ MORE</button>
+        </div>
+    </div>
+
+        <div class="box">
+        <div>
+            <h1>CINNAMON FOLLS</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+            </p>
+            <button class="s" type="button" >READ MORE</button>
+        </div>
+        <img src="bur3.png" alt="image fault">
+    </div>
+        <div class="box">
+        <img src="donnut2.png" alt="image fault">
+        <div>
+            <h1>CINNAMON FOLLS</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+            </p>
+            <button class="s" type="button" >READ MORE</button>
+        </div>
+    </div>
+        <div class="box">
+        <div>
+            <h1>CINNAMON FOLLS</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+            </p>
+            <button class="s" type="button" >READ MORE</button>
+        </div>
+        <img src="cup.png" alt="image fault"> 
+    </div>
+
+    </div>
+    
+    <br><br>
+
+
+
+
+
+
+    <div class="main-container2">    
+    <div class="as1">
+        <h6>Choose your Flavor</h6>
+        <h2>Food that brings people together!</h2>
+        <p>Cursus ultricies in maecenas pulvinar ultrices integer quam amet, semper<br> dictumst sit interdum ut venenatis pellentesque nunc.</p>
+        <button class="s1" type="button" >VIEW ALL MENU</button>
+    </div>
+
+
+    <div class="as2">
+        
+        <div class="a1">
+            <img src="https://websitedemos.net/pizzeria-04/wp-content/uploads/sites/791/2021/03/pizzeria-template-menu-pasta-img.png" alt="">
+            <h1>Pasta</h1>
+        </div>
+
+    <div class="a2">
+        <img src="https://websitedemos.net/pizzeria-04/wp-content/uploads/sites/791/2021/03/pizzeria-template-menu-pizza-img.png" alt="">
+        <h1>Pizza</h1>
+    </div>
+
+    <div class="a3">
+        <img src="https://websitedemos.net/pizzeria-04/wp-content/uploads/sites/791/2021/03/pizzeria-template-menu-dessert-img.png" alt="">
+        <h1>Dessert</h1>
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+    <!-- FOOTER -->
+    <div class="foot">
+        <div class="foot1">
+        <a href="https://www.fontspace.com/category/tattoo"><img src="https://see.fontimg.com/api/renderfont4/OV9ee/eyJyIjoiZnMiLCJoIjo1NCwidyI6MTI1MCwiZnMiOjQzLCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiI0M1NDA0MCIsInQiOjF9/IEJha2Vy/lucy-said-ok-personal-use-italic.png" alt="Tattoo fonts"></a>
+        <p>It is a long established fact that a reader will be distracted <br>by the readablecontent of a page when looking at its layout.<br>The point of using Lorem Ipsum is that it has a more-or-less<br> using normal distribution of letters, as opposed to using the <br>'Content here, content here', making it look like readable <br>English.</p>
+        </div>
+        <div  class="foot2">
+            <i class="fa fa-instagram icon" ></i>
+            <i class="fa fa-facebook icon"></i>
+            <i class="fa fa-linkedin icon"></i>
+            <i class="fa fa-twitter icon"></i>
+            <i class="fab fa-discord icon"></i>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright © 2023 Denver. All rights are not reserved</p>
+
+    </footer>
+
+</body>
+
+
+</html>
